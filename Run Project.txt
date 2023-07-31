@@ -1,0 +1,5 @@
+import { debounce } from 'lodash'; -> debounce search
+import { formatRelative } from 'date-fns/esm'; -> convert object timestamp to date
+
+Run frontend: npm run start
+Run database: cd /emulators -> "firebase emulators:start"
